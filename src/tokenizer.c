@@ -9,7 +9,7 @@ struct keyword_entry
     enum sk_token_type token;
 };
 
-struct keyword_entry keyword_map[] =
+static struct keyword_entry keyword_map[] =
 {
     {"if", SK_TOK_IF},
     {"else", SK_TOK_ELSE},
